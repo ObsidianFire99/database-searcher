@@ -161,3 +161,7 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+#files
+/Databases/Family.txt
+/Databases/Fruit.txt
