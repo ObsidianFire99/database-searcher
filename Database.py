@@ -91,7 +91,8 @@ def getdb(xlist):
             print "The path to your database is broken."
             start()
         for line in infile:
-            searchlist.append(line.strip("\n"))
+            if not line[0] == "-":
+                searchlist.append(line.strip("\n"))
         count = count + 1
     infile.close()
     start()
