@@ -1,4 +1,4 @@
 -Enter the Titles and locations of your databases on seperate lines below. Prefix Titles with a #.
 -Lines with a dash before them, like these ones, will be ignores
 #My Database
-/Databases/database.txt
+Databases/database.txt
